@@ -1,0 +1,79 @@
+ /* General Styles */
+body {
+    background-image:url(background-image.jpg);
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ce9898;
+    color: #333;
+}
+
+header {
+    background-color: #004a6e;
+    color: rgb(147, 196, 224);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.container {
+    
+    width: 80%;
+    margin: 20px auto;
+    background-color:white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section {
+    text-align: center;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.quote {
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.content h2 {
+    color: #004a6e;
+    margin-top: 20px;
+    font-size: 1.8em;
+}
+
+.content p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #004a6e;
+    color: rgb(47, 204, 196);
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
